@@ -23,8 +23,8 @@ header {
 .faixa{
   background-color: #C2185B;
   z-index: 15;
-  position: fixed;
-  top: 100px;
+  position: sticky;
+  top: 0px;
   width: 100%;
   }
 
@@ -32,6 +32,7 @@ header {
     color: #fff;
     text-align: center;
     font-style: unset;
+    text-transform: uppercase;
     z-index: 1;
     position: relative;
 
@@ -55,6 +56,7 @@ header {
 .banner {
   background-image: url("../img/banner.png");
   height: 235px;
+  
 }
 
 h1 {
